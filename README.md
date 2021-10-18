@@ -1,6 +1,6 @@
 <div align='center'>
 
-<img src="logo.png" alt="kali-nethunter" height="200" width="200"> <br>
+<img src="nethunter.png" alt="kali-nethunter" height="200" width="200"> <br>
 
 # Kali Nethunter for OnePlus3T  <br>
 
