@@ -37,15 +37,13 @@ Nethuner for Rooted/Non-Supported Devices : https://www.kali.org/docs/nethunter/
 - [x] USB Flash Drive ([Amazon India](https://www.amazon.in/s?k=usb+stick))
 - [x] C-Type USB cable
 
-### Few Tweaks Before Getting Started :
-
-- Enable Developer Option : Go to Settings > About Phone > Tap on Build Number 7 times.
-- Go to Settings > System > Developer Options
-- Enable USB Debugging Mode, OEM Unlocking and Advanced Reboot
-
 ## ℹ️ BACKUP ALL YOUR DATA BEFORE DOING ANYTHING.
 
 ### Unlock OnePlus 3T Bootloader :
+
+- Enable Developer Option : Go to `Settings > About Phone > Tap on Build Number 7 times`.
+- Go to `Settings > System > Developer Options`
+- Enable USB Debugging Mode, OEM Unlocking and Advanced Reboot
 
 > ⚠️ *Unlocking Bootloader will completely reset your phone to factory defaults! Backup all your data before doing this.*
 
@@ -54,7 +52,7 @@ Nethuner for Rooted/Non-Supported Devices : https://www.kali.org/docs/nethunter/
 - Extract Fastboot and ADB (platform-tools_rxx.x.x-windows.zip) 
 - Open the Terminal in the extracted Fastboot and ADB folder by pressing `Shift + Right Click > Windows Terminal`
 
-<img src="nethunter.png" alt="fastboot">
+<img src="fastboot-and-adb.png" alt="fastboot">
 
 - Verify the device’s connection by executing the following command :
 ```
@@ -74,16 +72,19 @@ fastboot oem unlock
 - Reboot OnePlus 3T into fastboot mode and connect your device to PC via USB cable.
 - Move TWRP img file to the extracted Fastboot and ADB folder
 
-> ⚠️ *You can also change the TWRP img file name to `TWRP.img` with the actual filename. just for shorten the command.* 😅
+> ⚠️ *You can also change the TWRP img file name to `twrp.img` with the actual filename. just for shorten the command.* 😅
+
+<img src="twrp.png" alt="TWRP">
 
 - Open the Terminal by pressing `Shift + Right Click > Windows Terminal`
+
 - Verify the device’s connection by executing the following command :
 ```
 fastboot devices
 ```
 - Now, Flash TWRP Recovery by executing the following command :
 ```
-fastboot flash recovery TWRP.img
+fastboot flash recovery twrp.img
 ```
 - That's it !!! You have successfully installed TWRP Recovery.
 - Now, navigate to TWRP Recovery with your volume keys and select it with the power button.
@@ -92,17 +93,24 @@ fastboot flash recovery TWRP.img
 
 - Reboot to TWRP Recovery
 - Format DALVIK, SYSTEM, CACHE : `Wipe > Swipe to Factory Reset`
-- Don't Reboot
-- Copy all files to the USB Stick
+- Don't Reboot !!
+
+- Copy all files to the USB Stick :
+	+ boot-patched-9.0.6-OP3T.img
+	+ Force_Encryption_Disabler_For_OOS_Pie_v1.zip
+	+ Magisk-v23.0.zip 
+	+ nethunter-2021.3-oneplus3-any-pie-kalifs-full.zip
+
 - Connect The USB Stick with Android Device using OTG Cable.
 - Mount OTG by going to `Mount > Select USB-OTG Partition`
-- Flash boot-patched-9.0.6-OP3T.img : `Install > Select Storage > USB-OTG > Select boot-patched-9.0.6-OP3T.img file > Swipe to Install`
+- Select Storage USB-OTG by going to `Mount > Select Storage > Select USB-OTG`
+- Flash boot-patched-9.0.6-OP3T.img : `Install > Select boot-patched-9.0.6-OP3T.img file > Swipe to Install`
 
 > ⚠️ *Flash boot-patched-9.0.6-OP3T.img to disable DM-Verity*
 
 - Go back and Flash Force_Encryption_Disabler_For_OOS_Pie_v1.zip : `Install > Select Force_Encryption_Disabler_For_OOS_Pie_v1.zip file > Swipe to Install`
 - Again go back and Flash Magisk-v23.0.zip : `Install > Select Magisk-v23.0.zip > Swipe to Install`
-- Don't Reboot To System!!
+- Don't Reboot To System !!
 
 ### Install Kali Nethunter :
 
@@ -119,21 +127,19 @@ fastboot flash recovery TWRP.img
 - Once the flash is successful Flash Magisk-v23.0.zip Again : `Install > Select Magisk-v23.0.zip > Swipe to Install` 
 - That's It. Reboot Your Device.
 
-> ⚠️ Update NetHunter app after flashing <br> ❌ Android 10 is still experimental
+### Things To Do After Installation :
 
+- Update NetHunter App after flashing.
+- Open the NetHunter App and start the Kali Chroot Manager.
+- Install the Hacker Keyboard from the NetHunter Store using the NetHunter Store app.
+- Install any other apps from the NetHunter Store as required.
+- Set up Nethunter KeX.
+- Configure Kali Services, such as SSH.
+- Set up custom commands.
+- Initialize the Exploit-Database.
+- If you want you can also Add Metapackage.
+- Open Nethunter Terminal and Update and Upgrade Kali.
 
+That's it !!! if you face any issue feel free to ask..
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Happy Hunting !!!**
