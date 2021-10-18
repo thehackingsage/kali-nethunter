@@ -89,6 +89,8 @@ fastboot flash recovery twrp.img
 - That's it !!! You have successfully installed TWRP Recovery.
 - Now, navigate to TWRP Recovery with your volume keys and select it with the power button.
 
+> ⚠️ *You can also create a backup using TWRP and move it to your PC or USB Stick so if anything goes wrong you can restore your stock android*
+
 ### Wipe All Data and Flash Patches :
 
 - Reboot to TWRP Recovery
