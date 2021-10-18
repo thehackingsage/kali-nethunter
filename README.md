@@ -144,4 +144,9 @@ fastboot flash recovery twrp.img
 
 That's it !!! if you face any issue feel free to ask..
 
+### Source : 
+
+- XDA-Forum : https://forum.xda-developers.com/t/disable-dm-verity-force-encryption-oneplus-3t-3-for-pie-oxygen-os.3922324/
+- Kali Nethunter : https://www.kali.org/docs/nethunter/
+
 **Happy Hunting !!!**
