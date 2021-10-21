@@ -10,7 +10,7 @@
 <br><br>
 </div>
 
-<div align='center'><img src="img/kali-nethunter.png" alt="Kali Nethunter" height="500"></div>
+<div align='center'><img src="img/kali-nethunter.png" alt="Kali Nethunter"></div>
 
 # Kali Nethunter :
 
