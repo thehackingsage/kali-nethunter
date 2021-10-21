@@ -1,5 +1,5 @@
 <div align='center'>
-<img src="img/nethunter.png" alt="kali-nethunter" height="282" width="500"> <br>
+<img src="img/nethunter.png" alt="kali-nethunter" height="300"> <br>
   
 # KALI NETHUNTER <br>
   
@@ -10,23 +10,23 @@
 <br><br>
 </div>
 
-<div align='center'><img src="img/kali-nethunter.png" alt="Kali Nethuner" height="500"></div>
+<div align='center'><img src="img/kali-nethunter.png" alt="Kali Nethunter" height="500"></div>
 
-# Kali Nethuner :
+# Kali Nethunter :
 
 Kali NetHunter is a free & Open-source Mobile Penetration Testing Platform for Android devices, based on Kali Linux. read more about nethunter here : https://www.kali.org/docs/nethunter/
 
-Nethuner for Supported Devices : https://www.kali.org/get-kali/#kali-mobile
+Nethunter for Supported Devices : https://www.kali.org/get-kali/#kali-mobile
 
-Nethuner for Unrooted Devices : https://www.kali.org/docs/nethunter/nethunter-rootless/
+Nethunter for Unrooted Devices : https://www.kali.org/docs/nethunter/nethunter-rootless/
 
-Nethuner for Rooted/Non-Supported Devices : https://www.kali.org/docs/nethunter/porting-nethunter/
+Nethunter for Rooted/Non-Supported Devices : https://www.kali.org/docs/nethunter/porting-nethunter/
 
-# Nethunter for OnePlus3T - *Step-by-Step Installation Instructions*
+# Nethunter for OnePlus3T
 
 > ℹ️ For OnePlus3T Oxygen OS 9.0.6 Android 9 Pie
 
-<div align='center'><img src="img/oneplus3t.png" alt="OnePlus3T Oxygen OS 9.0.6 Android 9 Pie" height="500"></div>
+<div align='center'><img src="img/oneplus3t.png" alt="OnePlus3T Oxygen OS 9.0.6 Android 9 Pie"></div>
 
 ## Required Files :
 
