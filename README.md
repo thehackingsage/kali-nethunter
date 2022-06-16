@@ -160,6 +160,8 @@ fastboot flash recovery twrp.img
 
 <div align='center'><img src="img/magisk.png" alt="Magisk" height="500"></div>
 
+- After installing make sure to wipe cache/dalvik
+
 - Now reboot to system and setup your android device.!!
 
 ## Install Kali Nethunter :
@@ -188,6 +190,8 @@ fastboot flash recovery twrp.img
 - Once the flash is successful, Flash Magisk-v23.0.zip Again : `Install > Select Magisk-v23.0.zip > Swipe to Install` 
 
 <div align='center'><img src="img/magisk.png" alt="Magisk" height="500"></div>
+
+- After installing make sure to wipe cache/dalvik
 
 - That's It. Reboot Your Device.
 
